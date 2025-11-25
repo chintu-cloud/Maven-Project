@@ -156,6 +156,7 @@ after run mvn archetype:generate
 
       Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2293: 3593
 then enter:
+```
       [INFO] ----------------------------------------------------------------------------
       [INFO] Using following parameters for creating project from Archetype: angular-spring-archetype:0.0.6
       [INFO] ----------------------------------------------------------------------------
@@ -168,7 +169,7 @@ then enter:
       [INFO] Parameter: groupId, Value: apple
       [INFO] Parameter: artifactId, Value: project-java
       [INFO] Parameter: version, Value: 1.0-SNAPSHOT
- 
+``` 
 ```
 ```
           ls
