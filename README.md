@@ -148,7 +148,21 @@ tree
 ```
            
 after run mvn archetype:generate
-    #  enter:
+```
+Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2293: 3580
+        Choose za.co.absa.hyperdrive:component-archetype version: 
+        1: 1.0.0    👈
+        2: 2.0.0    👈
+        3: 3.0.0    👈
+        4: 3.1.0    👈      ###choose any one  latest number###
+        5: 3.2.2    👈
+        6: 3.3.0    👈
+        7: 4.0.0    👈
+        8: 4.1.0    👈
+        Choose a number: 8: 7 👉  then enter 
+
+```
+ # then enter :
 ```
       Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2293: 3593
   ```    
@@ -183,8 +197,9 @@ after run mvn archetype:generate
                        [INFO] -------------------------< alexa:project-java >-------------------------
                        [INFO] Building project-java 1.0-SNAPSHOT
                        [INFO] --------------------------------[ war ]---------------------------------
-                       [INFO] 
                        [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ project-java ---
+                       [INFO] ------------------------------------------------------------------------
+                       [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
                        [INFO] ------------------------------------------------------------------------
                        [INFO] BUILD SUCCESS
                        [INFO] ------------------------------------------------------------------------
