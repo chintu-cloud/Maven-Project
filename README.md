@@ -1,3 +1,4 @@
+<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/b351d2e0-b3f4-4843-98c8-7ea20a9e2c34" />
 
 # 🚀  Maven Project 🚀
 ---
