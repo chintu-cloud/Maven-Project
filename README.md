@@ -43,20 +43,20 @@ This project showcases:
 1. **Before running `mvn package`:**
    ```bash
    run: (automatic)
-          mvn clean
-          mvn compile
-          mvn test
+                            mvn clean
+                            mvn compile
+                            mvn test
    then run:
-          mvn package
+                            mvn package
    ```
 
 2. **Before running `mvn test`:**
    ```bash
     run: (automatic)
-          mvn clean
-          mvn compile
+                            mvn clean
+                            mvn compile
    then run:
-          mvn test
+                            mvn test
    ```
 
 ---
