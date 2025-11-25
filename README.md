@@ -144,13 +144,14 @@ tree
 28 directories, 22 files
 
 
-```bash
+```
           ls
           mvn archetype:generate  
                  OR
           mvn archetype:generate -DgroupId=com.mycompany -DartifactId=sample-module
-  ```                
-adter run mvn archetype:generate
+```
+```            
+after run mvn archetype:generate
      enter:
 
       Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2293: 3593
@@ -168,10 +169,12 @@ then enter:
       [INFO] Parameter: artifactId, Value: project-java
       [INFO] Parameter: version, Value: 1.0-SNAPSHOT
  
-```bash
+```
+```
           ls
           cd project-java
           mvn clean 
+```
 ```
             output: 
                        [INFO] Scanning for projects...
