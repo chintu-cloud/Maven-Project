@@ -1,5 +1,8 @@
 
-# 🚀 Maven Project 🚀
+# 🚀  Maven Project 🚀
+---
+A complete, step-by-step Maven workflow guide
+
 
 A sample multi-module Maven project demonstrating build lifecycle, packaging, and deployment on AWS EC2.
 
@@ -39,19 +42,19 @@ This project showcases:
 ## 🔑 Important Notes
 1. **Before running `mvn package`:**
    ```bash
-   run:
-       mvn clean
-       mvn compile
-       mvn test
+   run: (automatic)
+          mvn clean
+          mvn compile
+          mvn test
    then run:
           mvn package
    ```
 
 2. **Before running `mvn test`:**
    ```bash
-    run:
-       mvn clean
-       mvn compile
+    run: (automatic)
+          mvn clean
+          mvn compile
    then run:
           mvn test
    ```
