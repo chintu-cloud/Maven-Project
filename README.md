@@ -274,29 +274,29 @@ tree
 ## 🏗️ Build & Run
 ```
 **Clean project:**
-```bash
-mvn clean
-```
+
+  mvn clean
+
 
 **Compile project:**
-```bash
+
 mvn compile
-```
+
 
 **Run tests:**
-```bash
+
 mvn test
-```
+
 
 **Package project:**
-```bash
+
 mvn package
-```
+
 
 **Install locally:**
-```bash
+
 mvn install
-```
+
 ```
 ---
 
