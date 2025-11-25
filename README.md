@@ -272,7 +272,7 @@ tree
 ---
 
 ## 🏗️ Build & Run
-
+```
 **Clean project:**
 ```bash
 mvn clean
@@ -297,7 +297,7 @@ mvn package
 ```bash
 mvn install
 ```
-
+```
 ---
 
 ## 📦 Modules
