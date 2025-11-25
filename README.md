@@ -10,18 +10,7 @@ A complete, step-by-step Maven workflow guide
 
 A sample multi-module Maven project demonstrating build lifecycle, packaging, and deployment on AWS EC2.
 
----
 
-## 📖 Table of Contents
-1. [Overview](#overview)
-2. [Maven Goals](#maven-goals)
-3. [Important Notes](#important-notes)
-4. [Launch Server (AWS EC2)](#launch-server-aws-ec2)
-5. [Project Structure](#project-structure)
-6. [Build & Run](#build--run)
-7. [Modules](#modules)
-
----
 
 ## 📌 Overview
 This project showcases:
