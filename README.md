@@ -135,7 +135,8 @@ tree
                 └── AppTest.class
 
 28 directories, 22 files
-
+----
+then run:
 
 ```
           ls
@@ -164,6 +165,7 @@ then enter:
       [INFO] Parameter: version, Value: 1.0-SNAPSHOT
 ``` 
 ```
+then run :
 ```
           ls
           cd project-java
@@ -185,11 +187,14 @@ then enter:
                        [INFO] Finished at: 2025-11-25T10:31:23Z
                        [INFO] ------------------------------------------------------------------------
 
-```bash
+```
+----
+then run :
+```
 ls 
 tree
 ```
-
+----
 ```plaintext
 .
 ├── PROJECT-JAR
