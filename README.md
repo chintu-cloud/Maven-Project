@@ -136,7 +136,9 @@ tree
 
 28 directories, 22 files
 ----
-then run:
+```
+
+# then run:
 
 ```
           ls
@@ -165,7 +167,9 @@ then enter:
       [INFO] Parameter: version, Value: 1.0-SNAPSHOT
 ``` 
 ```
-then run :
+
+# then run :
+
 ```
           ls
           cd project-java
@@ -189,7 +193,7 @@ then run :
 
 ```
 ----
-then run :
+# then run :
 ```
 ls 
 tree
