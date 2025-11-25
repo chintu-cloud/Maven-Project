@@ -148,8 +148,7 @@ tree
 ```
            
 after run mvn archetype:generate
-
-     enter:
+    #  enter:
 ```
       Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2293: 3593
   ```    
