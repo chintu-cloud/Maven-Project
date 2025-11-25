@@ -146,12 +146,13 @@ tree
                  OR
           mvn archetype:generate -DgroupId=com.mycompany -DartifactId=sample-module
 ```
-```            
+           
 after run mvn archetype:generate
      enter:
-
+```
       Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2293: 3593
-then enter:
+  ```    
+# then enter:
 ```
       [INFO] ----------------------------------------------------------------------------
       [INFO] Using following parameters for creating project from Archetype: angular-spring-archetype:0.0.6
