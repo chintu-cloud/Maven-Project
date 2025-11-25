@@ -39,17 +39,21 @@ This project showcases:
 ## 🔑 Important Notes
 1. **Before running `mvn package`:**
    ```bash
-   mvn clean
-   mvn compile
-   mvn test
-   mvn package
+   run:
+       mvn clean
+       mvn compile
+       mvn test
+   then run:
+          mvn package
    ```
 
 2. **Before running `mvn test`:**
    ```bash
-   mvn clean
-   mvn compile
-   mvn test
+    run:
+       mvn clean
+       mvn compile
+   then run:
+          mvn test
    ```
 
 ---
@@ -79,28 +83,177 @@ tree
 ## 📂 Project Structure
 
 ```plaintext
+           tree
+
+
 .
 ├── README.md
+├── file1
 ├── pom.xml
-├── PROJECT-JAR/
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── project
+│   │   │           └── App.java
+│   │   └── resources
+│   │       └── config.properties
+│   └── test
+│       └── java
+│           └── com
+│               └── project
+│                   └── AppTest.java
+└── target
+    ├── classes
+    │   ├── META-INF
+    │   │   ├── MANIFEST.MF
+    │   │   └── maven
+    │   │       └── com.tcs
+    │   │           └── project
+    │   │               ├── pom.properties
+    │   │               └── pom.xml
+    │   ├── com
+    │   │   └── project
+    │   │       └── App.class
+    │   └── config.properties
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    ├── surefire-reports
+    │   ├── 2024-06-02T18-27-34_470-jvmRun1.dump
+    │   ├── 2024-06-02T18-27-34_470-jvmRun1.dumpstream
+    │   ├── 2024-06-02T18-27-34_470.dumpstream
+    │   ├── 2024-06-02T18-33-49_067-jvmRun1.dump
+    │   ├── 2024-06-02T18-33-49_067-jvmRun1.dumpstream
+    │   └── 2024-06-02T18-33-49_067.dumpstream
+    └── test-classes
+        └── com
+            └── project
+                └── AppTest.class
+
+28 directories, 22 files
+
+
+```bash
+          ls
+          mvn archetype:generate  
+                 OR
+          mvn archetype:generate -DgroupId=com.mycompany -DartifactId=sample-module
+  ```                
+adter run mvn archetype:generate
+     enter:
+
+      Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2293: 3593
+then enter:
+      [INFO] ----------------------------------------------------------------------------
+      [INFO] Using following parameters for creating project from Archetype: angular-spring-archetype:0.0.6
+      [INFO] ----------------------------------------------------------------------------
+      [INFO] Parameter: groupId, Value: apple
+      [INFO] Parameter: artifactId, Value: project-java
+      [INFO] Parameter: version, Value: 1.0-SNAPSHOT
+      [INFO] Parameter: package, Value: apple
+      [INFO] Parameter: packageInPathFormat, Value: apple
+      [INFO] Parameter: package, Value: apple
+      [INFO] Parameter: groupId, Value: apple
+      [INFO] Parameter: artifactId, Value: project-java
+      [INFO] Parameter: version, Value: 1.0-SNAPSHOT
+ 
+```bash
+          ls
+          cd project-java
+          mvn clean 
+```
+            output: 
+                       [INFO] Scanning for projects...
+                       [INFO] 
+                       [INFO] -------------------------< alexa:project-java >-------------------------
+                       [INFO] Building project-java 1.0-SNAPSHOT
+                       [INFO] --------------------------------[ war ]---------------------------------
+                       [INFO] 
+                       [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ project-java ---
+                       [INFO] ------------------------------------------------------------------------
+                       [INFO] BUILD SUCCESS
+                       [INFO] ------------------------------------------------------------------------
+                       [INFO] Total time:  0.304 s
+                       [INFO] Finished at: 2025-11-25T10:31:23Z
+                       [INFO] ------------------------------------------------------------------------
+
+```bash
+ls 
+tree
+```
+.
+├── PROJECT-JAR
 │   └── pom.xml
-├── project-1/
+├── README.md
+├── file1
+├── pom.xml
+├── project-1
 │   └── pom.xml
-├── project-java/
+├── project-java
 │   └── pom.xml
-├── project-secret/
+├── project-secret
 │   └── pom.xml
-├── sample-module/
+├── sample-module
 │   └── pom.xml
-├── src/
-│   ├── main/java/com/project/App.java
-│   ├── main/resources/config.properties
-│   └── test/java/com/project/AppTest.java
-└── target/
-    ├── classes/
-    ├── test-classes/
-    ├── surefire-reports/
-    └── maven-status/
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── project
+│   │   │           └── App.java
+│   │   └── resources
+│   │       └── config.properties
+│   └── test
+│       └── java
+│           └── com
+│               └── project
+│                   └── AppTest.java
+└── target
+    ├── classes
+    │   ├── META-INF
+    │   │   ├── MANIFEST.MF
+    │   │   └── maven
+    │   │       └── com.tcs
+    │   │           └── project
+    │   │               ├── pom.properties
+    │   │               └── pom.xml
+    │   ├── com
+    │   │   └── project
+    │   │       └── App.class
+    │   └── config.properties
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    ├── surefire-reports
+    │   ├── 2024-06-02T18-27-34_470-jvmRun1.dump
+    │   ├── 2024-06-02T18-27-34_470-jvmRun1.dumpstream
+    │   ├── 2024-06-02T18-27-34_470.dumpstream
+    │   ├── 2024-06-02T18-33-49_067-jvmRun1.dump
+    │   ├── 2024-06-02T18-33-49_067-jvmRun1.dumpstream
+    │   └── 2024-06-02T18-33-49_067.dumpstream
+    └── test-classes
+        └── com
+            └── project
+                └── AppTest.class
+
+33 directories, 27 files
+
+
 ```
 
 ---
@@ -146,7 +299,5 @@ mvn install
 ✨ This README ensures anyone cloning your repo can **understand, build, and run** the project step by step.
 ```
 
----
 
-Would you like me to also add **badges** (like build status, license, Java version) at the top of the README so it looks even more polished for GitHub?
 
