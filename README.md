@@ -192,6 +192,8 @@ then enter:
 ls 
 tree
 ```
+
+```plaintext
 .
 ├── PROJECT-JAR
 │   └── pom.xml
